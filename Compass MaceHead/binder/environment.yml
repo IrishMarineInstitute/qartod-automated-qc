@@ -1,0 +1,14 @@
+name: environment
+
+channels: 
+  - conda-forge
+
+dependencies:
+  - ioos_qc
+  - numpy
+  - pandas
+  - bokeh
+  - os
+  - datetime
+  - json
+  - ipywidgets
