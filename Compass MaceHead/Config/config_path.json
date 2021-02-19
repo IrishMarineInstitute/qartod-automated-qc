@@ -1,0 +1,10 @@
+{
+    "Compass Mace Head Observation Buoy": {
+        "dataset_id": "compass_mace_head",
+        "metadata": ["station_id","time"],
+        "columns": {
+            "sbe_salinity_avg": "config_macehead_sal.json",
+            "sbe_temp_avg": "config_macehead_seatemp.json"
+        }
+    }
+}

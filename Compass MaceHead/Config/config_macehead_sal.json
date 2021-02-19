@@ -1,0 +1,49 @@
+{
+    "qartod": {
+            "gross_range_test": {
+                "fail_span": [0, 40],
+                "suspect_span": [30, 39]
+            },
+            "climatology_test": {
+                "config": [{
+                        "vspan": [32, 36],
+                        "tspan": [1, 2],
+                        "period": "month",
+                        "zspan": [0, 100]
+                    },
+                    {
+                        "vspan": [33, 38],
+                        "tspan": [2, 7],
+                        "period": "month",
+                        "zspan": [0, 100]
+                    },
+                    {
+                        "vspan": [32, 36],
+                        "tspan": [8, 12],
+                        "period": "month",
+                        "zspan": [0, 100]
+                    }
+                ]
+            },
+            "flat_line_test": {
+                "tolerance": 0.0001,
+                "suspect_threshold": 5000,
+                "fail_threshold": 30000
+            },
+            "rate_of_change_test": {
+                "threshold": 2
+            },
+            "spike_test": {
+                "suspect_threshold": 3,
+                "fail_threshold": 8
+            },
+            "attenuated_signal_test": {
+                "suspect_threshold": 0.002,
+                "fail_threshold": 0.001,
+                "check_type": "std",
+                "test_period": 90000,
+                "min_period": 45000
+            },
+            "aggregate": {}
+        }
+}
