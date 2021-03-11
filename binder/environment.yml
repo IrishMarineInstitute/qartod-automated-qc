@@ -8,7 +8,4 @@ dependencies:
   - numpy
   - pandas
   - bokeh
-  - os
-  - datetime
-  - json
   - ipywidgets
