@@ -5,3 +5,10 @@ channels:
 
 dependencies:
   - ioos_qc
+  - numpy
+  - pandas
+  - bokeh
+  - os
+  - datetime
+  - json
+  - ipywidgets
